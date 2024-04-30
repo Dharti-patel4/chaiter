@@ -1,0 +1,381 @@
+@media(min-width:481px) and (max-width:768px)
+{
+ *
+{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.nav 
+{
+    height: 40px;
+    width: 100%;
+    background-color: crimson;
+}
+.nav .head 
+{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.head li 
+{
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
+.icon 
+{
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+}
+.icon i 
+{
+    padding: 5px;
+}
+header 
+{
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+    display: none;
+}
+.menu
+{
+    width: 100%;
+    height: 80px;
+}
+.menu
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.menu i 
+{
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.menu i ul 
+{
+    width: 100%;
+    position: absolute;
+   display: none;
+  
+   
+}
+.menu:hover ul 
+{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    
+}
+.menu i ul li 
+{
+    padding: 20px;
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    font-weight: bolder;
+  
+    
+}
+.main 
+{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.tag2 ul 
+{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 20%;
+    padding-top: 20px;
+ 
+    
+}
+.tag2 li 
+{
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+}
+.heading 
+{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.cont
+{
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+.img 
+{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.hd 
+{
+    width: 50%;
+}
+.image img 
+{
+    height: 300px;
+   width: 300px;
+}
+.pd
+{
+    width: 100%;
+}
+.pd button 
+{
+    height: 30px;
+    width: 40%;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    margin-left:20px;
+   
+}
+.pd h1 
+{
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 34px;
+}
+.pd p
+{
+    padding: 20px 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.flex 
+{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    display: flex;
+  
+}
+.font
+{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.fon
+{
+    width: 100%;
+    height: 500px;
+}
+.fon img 
+{
+    height: 400px;
+    width: 100%;
+}
+.slay
+{
+    height: 450px;
+    width: 100%;
+}
+.facality
+{
+    width: 100%;
+    flex-wrap: wrap;
+   height: 500px;
+  
+}
+.fac
+{
+    width: 50%;
+    flex-wrap: wrap;
+   
+}
+.fac img 
+{
+    padding-left: 20px;
+}
+
+.tf
+{
+    width: 100%;
+    flex-wrap: wrap;
+  
+    
+   
+}
+.weak p 
+{
+    font-size: 18px;
+}
+
+.tak
+{
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.take
+{
+    width: 50%;
+    margin: auto;
+   
+}
+.high 
+{
+    width: 100%;
+}
+.coint
+{
+   
+    width: 100%;
+}
+.coint p 
+{
+    font-size: 14px;
+}
+.coint h2 
+{
+    font-size: 20px;
+}
+.core .cot
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    width: 80%;
+    font-size: 30px;
+}
+.core .cot p 
+{
+    font-size: 25px;
+}
+.one
+{
+    width: 100%;
+    height: auto;
+}
+.two
+{
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+   
+}
+.box1 
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.box2 
+{
+    width: 50%;
+    height: auto;
+   
+}
+.box2 img 
+{
+    width: 100%;
+}
+.box3 img 
+{
+    width: 80%;
+}
+.box3
+{
+    width: 50%;
+ height: auto;
+}
+.footer 
+{
+    width: 100%;
+    height: auto;
+}
+.foot 
+{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    
+}
+.fot 
+{
+    width: 50%;
+    padding: 20px;
+}
+.fit
+{
+    width: 50%;
+    padding: 20px;
+}
+.fet
+{
+    width: 50%;
+    padding: 20px;
+}
+.fall
+{
+    width: 50%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+}

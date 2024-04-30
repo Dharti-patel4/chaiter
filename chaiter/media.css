@@ -1,0 +1,508 @@
+@media(max-width:480px)
+{
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+.main
+{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav 
+{
+    display: none;
+}
+
+.nav .head ul
+{
+    display: none;
+}
+
+header
+{
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+    display: none;
+}
+
+.menu
+{
+    width: 100%;
+    height: 80px;
+}
+
+.menu
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.menu i 
+{
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.menu i ul {
+    width: 100%;
+    position: absolute;
+    display: none;
+
+
+}
+
+.menu:hover ul
+{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+.menu i ul li
+{
+    padding: 20px;
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    font-weight: bolder;
+
+
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+}
+
+.icon {
+
+    font-size: 30px;
+    align-items: center;
+    color: white;
+    display: none;
+}
+
+.btn button {
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    width: 25%;
+    height: 30px;
+}
+
+.bit button {
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    width: 25%;
+    height: 30px;
+}
+
+.contain
+{
+    height: 80px;
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    padding-bottom: 10px;
+}
+
+.contain img
+{
+    width: 100%;
+}
+
+.tag1 ul 
+{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    padding-top: 10px;
+}
+
+.tag1 li 
+{
+    list-style: none;
+    font-size: 16px;
+}
+.cont 
+{
+    width: 100%;
+    height: auto;
+}
+
+.heading 
+{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.img 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.hd 
+{
+    width: 100%;
+
+}
+
+.hd .image img 
+{
+    width: 100%;
+    height: 400px;
+}
+
+.hd .image 
+{
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.pd 
+{
+    height: 300px;
+    width: 425px;
+    padding: 20px;
+}
+
+.pd h1 
+{
+    padding: 20px 0px;
+    text-align: left;
+    font-size: 40px;
+}
+
+.pd p 
+{
+    padding: 20px 0px;
+    text-align: left;
+}
+
+.pd button 
+{
+
+    height: 30px;
+    width: 25%;
+    color: white;
+    background-color: crimson;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.flex
+{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    display: flex;
+
+}
+
+.font 
+{
+
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.fon 
+{
+    width: 100%;
+    height: 500px;
+}
+
+.fon img 
+{
+    height: 400px;
+    width: 100%;
+
+}
+
+.slay 
+{
+    height: 450px;
+    width: 100%;
+}
+
+.weak h1 
+{
+    font-size: 32px;
+}
+
+.weak p 
+{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+
+}
+
+.facality 
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(237, 87, 112);
+    flex-direction: column;
+}
+
+.fac 
+{
+    align-items: center;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.fac img 
+{
+    height: 40px;
+}
+
+.fac li 
+{
+    list-style: none;
+    color: white;
+}
+
+.fac li h1 
+{
+    font-size: 45px;
+}
+
+.fac li 
+{
+    font-size: 15px;
+}
+
+.tf 
+{
+    width: 100%;
+}
+
+.tak
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.take 
+{
+    height: 400px;
+    display: block;
+    position: relative;
+}
+
+.coint 
+{
+
+    width: 50%;
+    height: auto;
+}
+
+.high 
+{
+    text-align: center;
+    padding: 0%;
+    width: 100%;
+}
+
+.high .img 
+{
+
+}
+
+.weak p 
+{
+    padding-top: 0px;
+}
+
+.coint 
+{
+    height: 30px;
+    width: 425px;
+}
+
+.coint h2 
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.coint p 
+{
+    padding: 50px 0px 20px 10px;
+    text-align: center;
+
+}
+
+.core .content 
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 80%;
+}
+
+.core 
+{
+
+    width: 100%;
+    height: 450px;
+}
+
+.core img 
+{
+
+    width: 100%;
+    height: 450px;
+}
+
+.one 
+{
+    width: 100%;
+    height: auto;
+}
+
+.two 
+{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.box1 
+{
+    display: block;
+    width: 100%;
+    margin: 20px;
+}
+
+.box2 
+{
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+
+}
+
+.box2 img 
+{
+    transform: translate(-15%);
+    left: 0%;
+    width: 100%;
+}
+
+.box3 
+{
+    display: block;
+    width: 100%;
+    margin: 20px;
+}
+
+.box3 img 
+{
+    width: 80%;
+}
+
+.foot 
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    color: white;
+}
+
+.fot 
+{
+    padding: 20px;
+}
+
+.fit 
+{
+    padding: 20px;
+}
+
+.fet 
+{
+    padding: 20px;
+}
+
+.fall 
+{
+    padding: 20px;
+}
+
+.fot li img 
+{
+    width: 35%;
+}
+
+input 
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: brown;
+    border: 1px solid brown;
+}
+
+}
+
